@@ -1,7 +1,7 @@
 {
   "name": "ember-intl-format-cache",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A tiny addon wrapper around intl-format-cache to allow for importing of intl-format-cache.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -38,7 +38,10 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.1",
+    "ember-cli-babel": "^5.0.0",
+    "intl-format-cache": "^2.0.4"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
