@@ -12,10 +12,7 @@ module.exports = {
 
   treeForAddon: function(tree) {
     var formatCacheTree = new Funnel(path.join(formatCachePath, 'src'));
-
-    var trees = mergeTrees([formatCacheTree, tree], {
-      overwrite: true
-    });
+    var trees = mergeTrees([formatCacheTree, tree]);
 
     return this._super.treeForAddon.call(this, trees);
   }
