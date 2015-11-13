@@ -42,7 +42,7 @@
     "broccoli-funnel": "^0.2.3",
     "broccoli-merge-trees": "^0.2.1",
     "ember-cli-babel": "^5.0.0",
-    "intl-format-cache": "^2.0.4"
+    "intl-format-cache": "https://github.com/CrshOverride/intl-format-cache.git"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
